@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "bot.telegram.name",
+      "type": "java.lang.String",
+      "description": "Nome do Robô, esse nome define como ele será chamado"
+    },
+    {
+      "name": "bot.telegram.token",
+      "type": "java.lang.String",
+      "description": "Token de funcionamento e integração com telegram"
+    }
+  ]
+}

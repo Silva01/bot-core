@@ -1,0 +1,5 @@
+server.port: 8080
+
+bot.telegram:
+  name: ${BOT_NAME_TELEGRAM}
+  token: ${BOT_TOKEN}

@@ -1,13 +1,13 @@
-package br.net.silva.daniel.camila;
+package br.net.silva.daniel.core.bot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CamilaApplication {
+public class CoreBotApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CamilaApplication.class, args);
+        SpringApplication.run(CoreBotApplication.class, args);
     }
 
 }

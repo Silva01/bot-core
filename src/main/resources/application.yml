@@ -3,3 +3,11 @@ server.port: 8080
 bot.telegram:
   name: ${BOT_NAME_TELEGRAM}
   token: ${BOT_TOKEN}
+spring:
+  data:
+    mongodb:
+      host: ${MONGO_URL}
+      database: ${MONGO_DATABASE}
+      port: ${MONGO_PORT}
+      username: ${MONGO_USER}
+      password: ${MONGO_PASS}
